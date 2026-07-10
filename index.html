@@ -14,6 +14,8 @@
         margin: 0 auto;
         border: 5px solid #3d0055;
         padding: 16px;
+
+        display: flex;
       }
       main{
         background-color: #d9c3f3;
@@ -24,20 +26,43 @@
       }
       img{
         width: 450px;
+        height: 80px;
+
+      }
+      {
+        artigo-autor
       }
       
     </style>
 </head>
 <body>
     <header>s
+      
   <h1>dia a dia</h1>
   <p>fofoca entre meninas!</p>
+  
   </header>
   <main>
+    <div>
     <img src="Gemini_Generated_Image_qyqumvqyqumvqyqu.png" alt="Minhas comprinhas!">
-  <p>por:Marcela</p>
+    
+
+    
+  <p>class-"autor">por:Marcela</p>
   <h2>meu primeiro post</h2>
   <p>que bom ver que vc ficou interessado!</p>
+  <button>​💖<span>0</span>​</button>
+  
+  <div>
   </main>
 </body>
+<script>
+  const botao = document.querySelector("button");//variável para acessar o botão
+  botao.addEventListener("click",botaoClicado);//quando acontecer um clique nós vamos ser notificados
+  function botaoClicado(){//funcionar o clique
+    console.log("fui clicado");//aviso do likes
+    let texto = botao
+  }
+</script>
+
 </html>
